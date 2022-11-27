@@ -1,0 +1,532 @@
+@media  (max-width: 1065px) {
+    
+    .droite{
+        padding-left: 60% !important;
+        
+    }
+    .gauche3{
+        padding-left: 60% !important;
+    }
+    
+    
+  }
+  @media  (max-width: 651px) {
+    .contenaire{
+        padding-left: 18%;
+    }
+    .droite{
+        padding-left: 5% !important;
+        
+    }
+    .gauche3{
+        padding-left: 3% !important;
+    }
+    .block{
+        margin-left:30% !important;
+        width: 110% !important; 
+    }
+    .imageDev{
+        visibility: hidden;
+    }
+    .foot{
+        
+        display: block !important;
+        background-color: red !important;
+    }
+  }
+body{
+    overflow-x: hidden;
+}
+.contenaire{
+    padding-top: 2%;
+    display: flex;
+}
+.gauche
+{ 
+    
+    flex: 2;
+    color: white; 
+    display: flex;
+    justify-content: space-between;
+    padding-left:1%;
+}
+.gauche3
+{
+    list-style: none;
+    margin-left: 15%;   
+    font-weight: bold;
+    
+}
+.gauche3 a{
+    text-decoration: none;
+    color: white;
+}
+.gauche3  :hover{
+    text-decoration: underline;
+    color: orange;
+}
+.droite
+{
+    list-style: none;
+    margin-left: 50%;
+    flex: 1;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    
+}
+.droite a{
+
+    text-decoration: none;
+    color: white;
+}
+.droite :hover{
+    color: orange;
+    text-decoration: underline;
+}
+.texte{
+    margin-left: 25%;
+    margin-top: 16%;
+}
+
+.all{
+    background-image: url("imagedefond.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Hello{
+    color: white;
+    font-size: 30px;
+}
+#Student{
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+#Alternance{
+    color: white;
+    font-size: 20px;
+}
+#plus{
+    color: orange;
+}
+.flou{
+    background:rgba(0, 0, 0, 0.4);
+}
+.fleche{
+    margin-top: 9%;
+    padding-bottom: 5%;
+    font-size: 50px;
+    color: white;
+    padding-left: 49%;
+    
+}
+#fleched{
+    text-decoration: none;
+}
+.ProjetContenaire{
+    
+    padding-left: 2%;
+    background-image: linear-gradient(to bottom, #202020 , #5d5b5b);
+    padding-top: 7%;
+    padding-bottom: 8%;
+    
+}
+.P3{
+   padding-top: 3%; 
+}
+.imageV{
+   margin-left: 25%;
+    border: 20px solid rgba(0, 0, 0, 0.2);
+}
+.image{
+   
+    display: flex;
+    justify-content: space-around;
+}
+.imageP{
+    border: 20px solid rgba(0, 0, 0, 0.2);
+}
+.ahover :hover{
+    background-color: red;
+    border: 20px solid rgba(218, 102, 35, 0.808) !important;
+}
+#titre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: white;
+    padding-bottom: 5%;
+    padding-left: 43%;
+}
+.H1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.APropos{
+    
+    padding-bottom: 10%;
+    background-image: linear-gradient(to bottom,  rgb(124, 124, 124) , white);
+    display: flex;  
+    justify-content: center;
+}
+#logo{
+    margin-top: -1.5%;
+}
+.DevWeb{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; ;
+    padding-left: 4%;
+   padding-top: 10%;
+   width: 40%;
+}
+.imageDev{
+    padding-top: 5%;
+padding-left: 10%;
+}
+.foot{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: #4e4c4c;
+}
+#php{
+    padding-top: 1.5%;
+}
+#wordpress{
+    padding-top: 1%;
+}
+.contactMTL{ 
+    padding-bottom: 1%;  
+    padding-top: 2%;   
+}
+.imglogo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-image: linear-gradient(to bottom, #5d5b5b , rgb(124, 124, 124));
+}
+.block{
+    margin-left: 40%;
+}
+#ptexte{
+    font-weight: bold;
+    font-size: 25px;
+}
+.btn{
+    background-color: orange;
+}
+#mail{
+    padding-left: 10%;
+}
+#titreCompetence{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 300%;
+    font-weight: bold;
+    padding-left: 43%;
+}
+
+
+#SkillBox {
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    width: 50%;
+    height: auto;
+    margin: 40px auto;
+    background-color: rgb(116, 111, 111);
+    border: 1px solid #cdcdcd;
+    padding: 10px;
+    border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+#SkillBox img {
+width: 20%;
+height: 10%;
+margin: auto 35%;
+padding: 10px;
+}
+
+.SkillBar {
+    width: 90%;
+    height: 50px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 20px auto;
+}
+
+
+#Skill-HTML {
+    width: 90%;
+    animation: Animate-HTML 10s;
+    -webkit-animation: Animate-HTML 10s;
+    -moz-animation: Animate-HTML 10s;
+    -o-animation: Animate-HTML 10s;
+    height: 50px;
+    position: absolute;
+    background-color: #ea8564;
+}
+
+@keyframes Animate-HTML {
+    from {
+        width: 10px;
+    }
+
+    to {
+    width: 85%
+    }
+}
+
+@-webkit-keyframes Animate-HTML {
+from {
+    width: 10px;
+}
+
+to {
+    width: 85%
+}
+}
+
+@-moz-keyframes Animate-HTML {
+from {
+    width: 10px;
+}
+
+to {
+    width: 85%
+}
+}
+
+
+#Skill-CSS {
+animation: Animate-CSS 10s;
+-webkit-animation: Animate-CSS 10s;
+-moz-animation: Animate-CSS 10s;
+-o-animation: Animate-CSS 10s;
+width: 70%;
+height: 50px;
+position: absolute;
+background-color: #55a69f;
+}
+
+@keyframes Animate-CSS {
+from {
+width: 10px;
+}
+
+to {
+width: 70%
+}
+}
+
+@-webkit-keyframes Animate-CSS {
+    from {
+    width: 10px;
+    }
+
+    to {
+    width: 70%
+    }
+}
+
+@-moz-keyframes Animate-CSS {
+from {
+width: 10px;
+}
+
+to {
+    width: 70%
+}
+}
+
+@-o-keyframes Animate-CSS {
+from {
+    width: 10px;
+}
+to {
+    width: 70%
+}
+}
+
+#Skill-JS {
+animation: Animate-JS 10s;
+-webkit-animation: Animate-JS 10s;
+-moz-animation: Animate-JS 10s;
+-o-animation: Animate-JS 10s;
+width: 80%;
+height: 50px;
+position: absolute;
+background-color: #c44e45;
+}
+
+
+@keyframes Animate-JS {
+from {
+    width: 10px;
+}
+to {
+    width: 65%
+}
+}
+
+@-webkit-keyframes Animate-JS {
+from {
+    width: 10px;
+}
+
+to {
+    width: 65%
+}
+}
+
+@-moz-keyframes Animate-JS {
+    from {
+        width: 10px;
+    }
+to {
+    width: 65%
+}
+}
+
+@-o-keyframes Animate-JS {
+from {
+    width: 10px;
+}
+
+to {
+    width: 65%
+}
+}
+
+#Skill-SQL {
+    animation: Animate-SQL 10s;
+    -webkit-animation: Animate-SQL 10s;
+    -moz-animation: Animate-SQL 10s;
+    -o-animation: Animate-SQL 10s;
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    background-color: #23b1db;
+}
+
+
+@keyframes Animate-SQL {
+from {
+    width: 10px;
+}
+
+to {
+    width: 80%
+}
+}
+
+@-webkit-keyframes Animate-SQL {
+from {
+    width: 10px;
+}
+
+to {
+    width: 80%
+}
+}
+
+@-moz-keyframes Animate-SQL {
+from {
+    width: 10px;
+    }
+
+to {
+    width: 80%
+}
+}
+
+@-o-keyframes Animate-SQL {
+from{
+    width: 10px;
+}
+
+to {
+width: 80%
+}
+}
+
+#Skill-PHP {
+    animation: Animate-VBNET 10s;
+    -webkit-animation: Animate-VBNET 10s;
+    -moz-animation: Animate-VBNET 10s;
+    -o-animation: Animate-VBNET 10s;
+    width: 80%;
+    height: 50px;
+    position: a8bsolute;
+    background-color: #ea39ff;
+}
+
+
+@keyframes Animate-VBNET {
+from {
+    width: 10px;
+}
+
+to {
+    width: 70%
+}
+}
+
+@-webkit-keyframes Animate-VBNET {
+from {
+    width: 10px;
+}
+
+to {
+width: 70%
+}
+}
+
+@-moz-keyframes Animate-VBNET {
+from {
+    width: 10px;
+}
+
+to {
+    width: 70%
+}
+}
+
+@-o-keyframes Animate-VBNET {
+from {
+    width: 10px;
+}
+
+to {
+    width: 35%
+}
+}
+
+.Skill-Area {
+    z-index: 1;
+    float: left;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #fff;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
+
+
+.PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    margin-top: 15px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
+
+
